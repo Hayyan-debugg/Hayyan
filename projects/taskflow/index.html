@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow — Smart Todo App</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a href="../../Hayyan.html" class="back-link">← Back to Portfolio</a>
+
+  <div class="app">
+    <header class="app-header">
+      <div class="logo">Task<span>Flow</span></div>
+      <p class="subtitle">Organize your day, one task at a time</p>
+    </header>
+
+    <form class="add-form" id="add-form">
+      <input type="text" id="task-input" placeholder="What needs to be done?" autocomplete="off" required>
+      <select id="priority-select">
+        <option value="low">Low</option>
+        <option value="medium" selected>Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button type="submit">Add Task</button>
+    </form>
+
+    <div class="stats" id="stats">
+      <span id="stat-total">0 tasks</span>
+      <span id="stat-done">0 completed</span>
+    </div>
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="active">Active</button>
+      <button class="filter-btn" data-filter="completed">Done</button>
+    </div>
+
+    <ul class="task-list" id="task-list"></ul>
+
+    <button class="clear-btn" id="clear-completed" hidden>Clear completed</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HueCraft — Color Palette Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a href="../../Hayyan.html" class="back-link">← Back to Portfolio</a>
+
+  <div class="app">
+    <header>
+      <h1>Hue<span>Craft</span></h1>
+      <p>Generate beautiful color palettes for your next design or web project.</p>
+    </header>
+
+    <div class="controls">
+      <button class="btn btn--primary" id="generate-btn">Generate Palette</button>
+      <button class="btn btn--secondary" id="lock-btn">🔒 Lock Colors</button>
+      <label class="count-label">
+        Colors:
+        <select id="count-select">
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5" selected>5</option>
+          <option value="6">6</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="palette" id="palette"></div>
+
+    <div class="export">
+      <h3>Export CSS Variables</h3>
+      <pre id="css-output"></pre>
+      <button class="btn btn--secondary" id="copy-css-btn">Copy CSS</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">Copied to clipboard!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

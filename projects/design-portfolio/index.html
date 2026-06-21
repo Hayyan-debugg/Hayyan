@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visual Design Portfolio — Muhammad Hayyan Ahmed</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="../../Hayyan.html" class="back-portfolio">← Back to Portfolio</a>
+
+  <header>
+    <h1>Visual <span>Design</span> Portfolio</h1>
+    <p>18 design pieces — social media posts, banners, logos, posters, and branding concepts</p>
+  </header>
+
+  <div class="filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="social">Social Media</button>
+    <button class="filter-btn" data-filter="banner">Banners</button>
+    <button class="filter-btn" data-filter="logo">Logos</button>
+    <button class="filter-btn" data-filter="poster">Posters</button>
+    <button class="filter-btn" data-filter="branding">Branding</button>
+  </div>
+
+  <div class="gallery" id="gallery"></div>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close">&times;</button>
+    <div class="lightbox-content">
+      <div class="lightbox-preview" id="lightbox-preview"></div>
+      <h2 id="lightbox-title"></h2>
+      <p id="lightbox-desc"></p>
+      <div class="lightbox-nav">
+        <button id="prev-btn">← Previous</button>
+        <button id="next-btn">Next →</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Created with Adobe Photoshop, Illustrator & Canva — Portfolio by Muhammad Hayyan Ahmed</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

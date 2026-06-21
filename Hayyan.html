@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Muhammad Hayyan Ahmed — Aspiring Software Developer & Front-End Web Developer from Hyderabad, Pakistan.">
+  <title>Muhammad Hayyan Ahmed | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">MH<span class="accent">.</span></a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#education" class="nav__link">Education</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero__content">
+        <p class="hero__greeting">Hello, I'm</p>
+        <h1 class="hero__name">Muhammad Hayyan Ahmed</h1>
+        <p class="hero__title">
+          Aspiring Software Developer &nbsp;|&nbsp; Front-End Web Developer &nbsp;|&nbsp; Future AI SaaS Builder
+        </p>
+        <p class="hero__location">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Hyderabad, Pakistan
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View My Work</a>
+          <a href="#contact" class="btn btn--outline">Get In Touch</a>
+        </div>
+        <div class="hero__social">
+          <a href="mailto:hayyanhayat63@gmail.com" aria-label="Email">Email</a>
+          <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+          <a href="tel:+923123923076" aria-label="Phone">+92 312 3923076</a>
+        </div>
+      </div>
+      <div class="hero__bg"></div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title">About Me</h2>
+        <div class="about__grid">
+          <div class="about__text">
+            <p>
+              Self-driven 15-year-old technology enthusiast from Pakistan building a strong foundation in front-end web development and AI-assisted productivity. Comfortable with HTML and CSS, currently developing JavaScript skills, and actively exploring AI SaaS development through guided self-study.
+            </p>
+            <p>
+              I combine a visual design background (Photoshop, Illustrator, Canva) with hands-on website projects and a structured, AI-augmented learning workflow. Known for fast skill acquisition, curiosity, and consistent initiative — seeking early exposure to internships, freelance work, and mentorship opportunities.
+            </p>
+          </div>
+          <div class="about__highlights">
+            <div class="highlight-card">
+              <span class="highlight-card__number">15</span>
+              <span class="highlight-card__label">Years Old</span>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-card__number">6+</span>
+              <span class="highlight-card__label">Projects Built</span>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-card__number">20+</span>
+              <span class="highlight-card__label">Design Pieces</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <h2 class="section__title">Skills</h2>
+        <div class="skills__grid">
+          <div class="skill-card">
+            <h3 class="skill-card__title">Web Development</h3>
+            <ul class="skill-list">
+              <li><span class="skill-tag skill-tag--strong">HTML</span> — strong working knowledge</li>
+              <li><span class="skill-tag skill-tag--strong">CSS</span> — Flexbox, responsive design</li>
+              <li><span class="skill-tag skill-tag--learning">JavaScript</span> — currently learning</li>
+              <li><span class="skill-tag">Bootstrap</span> — used in personal projects</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3 class="skill-card__title">AI & Productivity</h3>
+            <ul class="skill-list">
+              <li>AI-Assisted Research & Learning Workflows</li>
+              <li>Prompt Engineering Fundamentals</li>
+              <li>AI Productivity Tools (coding, research, problem-solving)</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3 class="skill-card__title">Design</h3>
+            <ul class="skill-list">
+              <li>Adobe Photoshop</li>
+              <li>Adobe Illustrator</li>
+              <li>Canva</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3 class="skill-card__title">Professional</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Communication</span>
+              <span class="skill-tag">Problem Solving</span>
+              <span class="skill-tag">Adaptability</span>
+              <span class="skill-tag">Critical Thinking</span>
+              <span class="skill-tag">Self-Learning</span>
+            </div>
+          </div>
+        </div>
+        <p class="skills__learning">
+          <strong>Currently learning:</strong> JavaScript, CSS Flexbox (in-depth), freeCodeCamp, The Odin Project, AI SaaS development fundamentals
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects__grid">
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <span class="project-card__badge project-card__badge--ai">AI SaaS</span>
+              <h3 class="project-card__title">PromptLab — AI Prompt Builder</h3>
+            </div>
+            <p class="project-card__desc">
+              A full SaaS-style landing page with a live prompt builder demo. Users pick templates, customize tone and topic, and copy AI-ready prompts — all running in the browser.
+            </p>
+            <ul class="project-card__features">
+              <li>Multi-section landing page with pricing</li>
+              <li>Interactive prompt generator with copy-to-clipboard</li>
+              <li>Privacy-first, client-side only</li>
+            </ul>
+            <div class="project-card__tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a href="projects/promptlab/index.html" class="project-card__link" target="_blank">Live Demo →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <span class="project-card__badge">Web App</span>
+              <h3 class="project-card__title">TaskFlow — Smart Todo App</h3>
+            </div>
+            <p class="project-card__desc">
+              A feature-rich task manager with priority levels, filters, local storage persistence, and a clean responsive UI built with vanilla JavaScript.
+            </p>
+            <ul class="project-card__features">
+              <li>Add, complete, and delete tasks with priorities</li>
+              <li>Filter by All, Active, or Completed</li>
+              <li>Data saved in localStorage</li>
+            </ul>
+            <div class="project-card__tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a href="projects/taskflow/index.html" class="project-card__link" target="_blank">Live Demo →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <span class="project-card__badge project-card__badge--design">Design Tool</span>
+              <h3 class="project-card__title">HueCraft — Color Palette Generator</h3>
+            </div>
+            <p class="project-card__desc">
+              An interactive design tool that generates random color palettes, lets you lock favorite colors, copy hex values, and export CSS custom properties.
+            </p>
+            <ul class="project-card__features">
+              <li>Generate 3–6 color palettes instantly</li>
+              <li>Lock colors and click-to-copy hex values</li>
+              <li>Export as CSS variables</li>
+            </ul>
+            <div class="project-card__tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a href="projects/huecraft/index.html" class="project-card__link" target="_blank">Live Demo →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <span class="project-card__badge">Web Dev</span>
+              <h3 class="project-card__title">Elone — Responsive Furniture Website</h3>
+            </div>
+            <p class="project-card__desc">
+              Designed and built an 8–10 page responsive site (Home, About, Services, Contact, and more) using HTML, CSS, JavaScript, and Bootstrap with consistent layout across mobile, tablet, and desktop.
+            </p>
+            <ul class="project-card__features">
+              <li>Custom navigation & smooth scroll animations</li>
+              <li>Mobile-first responsive breakpoints</li>
+              <li>Bootstrap layout components</li>
+            </ul>
+            <div class="project-card__tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span>
+            </div>
+            <a href="projects/elone/index.html" class="project-card__link" target="_blank">Live Demo →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <span class="project-card__badge">Web Dev</span>
+              <h3 class="project-card__title">Responsive Business Website</h3>
+            </div>
+            <p class="project-card__desc">
+              Built a multi-section website with a clean, modern UI using semantic HTML and CSS components, applying a mobile-first design approach with Bootstrap.
+            </p>
+            <ul class="project-card__features">
+              <li>Semantic HTML structure</li>
+              <li>Clean, modern UI components</li>
+              <li>Reliable cross-device rendering</li>
+            </ul>
+            <div class="project-card__tags">
+              <span>HTML</span><span>CSS</span><span>Bootstrap</span>
+            </div>
+            <a href="projects/business/index.html" class="project-card__link" target="_blank">Live Demo →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <span class="project-card__badge project-card__badge--design">Design</span>
+              <h3 class="project-card__title">Visual Design Portfolio</h3>
+            </div>
+            <p class="project-card__desc">
+              Created 15–20 design pieces including social media posts, banners, logos, posters, and branding concepts using Adobe Photoshop and Illustrator.
+            </p>
+            <ul class="project-card__features">
+              <li>Social media & banner designs</li>
+              <li>Logo & branding concepts</li>
+              <li>Client-style deliverables</li>
+            </ul>
+            <div class="project-card__tags">
+              <span>Photoshop</span><span>Illustrator</span><span>Canva</span>
+            </div>
+            <a href="projects/design-portfolio/index.html" class="project-card__link" target="_blank">Live Demo →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="education">
+      <div class="container">
+        <h2 class="section__title">Education</h2>
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">Expected 2026</span>
+              <h3>Diploma in Information Technology (DIT)</h3>
+              <p>Coursework focused on IT fundamentals and computer applications.</p>
+            </div>
+          </div>
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <span class="timeline__date">Completed</span>
+              <h3>Matriculation (Science / General)</h3>
+              <p>Foundation in science and general education.</p>
+            </div>
+          </div>
+        </div>
+        <div class="languages">
+          <h3>Languages</h3>
+          <div class="languages__list">
+            <div class="language-item">
+              <span class="language-item__name">Urdu</span>
+              <span class="language-item__level">Native</span>
+            </div>
+            <div class="language-item">
+              <span class="language-item__name">English</span>
+              <span class="language-item__level">Proficient (read, write, speak)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="section__title">Let's Connect</h2>
+        <p class="contact__subtitle">
+          Open to internships, freelance work, and mentorship opportunities.
+        </p>
+        <div class="contact__grid">
+          <a href="mailto:hayyanhayat63@gmail.com" class="contact-card">
+            <span class="contact-card__label">Email</span>
+            <span class="contact-card__value">hayyanhayat63@gmail.com</span>
+          </a>
+          <a href="tel:+923123923076" class="contact-card">
+            <span class="contact-card__label">Phone</span>
+            <span class="contact-card__value">+92 312 3923076</span>
+          </a>
+          <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank" rel="noopener" class="contact-card">
+            <span class="contact-card__label">LinkedIn</span>
+            <span class="contact-card__value">View Profile →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Muhammad Hayyan Ahmed. Built with HTML, CSS & JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+    </body>
+</html>
